@@ -6,6 +6,7 @@ export const siteConfig = {
   accentColor: "#4f46e5",
   social: {
     email: "ride@ucsd.edu",
+    orcid: "https://orcid.org/0009-0009-3387-9078",
     github: "https://github.com/ri2658",
   },
   aboutMe:

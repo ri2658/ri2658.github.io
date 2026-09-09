@@ -213,12 +213,12 @@ import { siteConfig } from "../config";
       )
     }
     {
-      siteConfig.social?.twitter && (
+      siteConfig.social?.orcid && (
         <a
-          href={siteConfig.social.twitter}
+          href={siteConfig.social.orcid}
           target="_blank"
           rel="noopener noreferrer"
-          aria-label="Twitter"
+          aria-label="ORCID"
           class="transition-colors duration-300 hover:text-[var(--accent-color)]"
         >
           <svg
@@ -226,18 +226,10 @@ import { siteConfig } from "../config";
             width="24"
             height="24"
             viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
+            fill="currentColor"
             class="h-6 w-6 sm:h-7 sm:w-7 md:h-8 md:w-8"
           >
-            <>
-              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-              <path d="M4 4l11.733 16h4.267l-11.733 -16z" />
-              <path d="M4 20l6.768 -6.768m2.46 -2.46l6.772 -6.772" />
-            </>
+            <path d="M12 0C5.372 0 0 5.372 0 12s5.372 12 12 12s12-5.372 12-12S18.628 0 12 0M7.369 4.378c.525 0 .947.431.947.947s-.422.947-.947.947a.95.95 0 0 1-.947-.947c0-.525.422-.947.947-.947m-.722 3.038h1.444v10.041H6.647zm3.562 0h3.9c3.712 0 5.344 2.653 5.344 5.025c0 2.578-2.016 5.025-5.325 5.025h-3.919zm1.444 1.303v7.444h2.297c3.272 0 4.022-2.484 4.022-3.722c0-2.016-1.284-3.722-4.097-3.722z" />
           </svg>
         </a>
       )
