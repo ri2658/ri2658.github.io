@@ -9,7 +9,7 @@ export const siteConfig = {
     github: "https://github.com/ri2658",
   },
   aboutMe:
-    "I'm a Physics and Data Science student at UC San Diego researching scientific machine learning, physics-informed neural networks, and computational physics. My work spans PINN and neural-operator surrogates for thermal simulation, characteristic-aligned operators for transport-dominated PDEs, and MCMC-based analysis of lattice field theory — with published research in adversarial robustness for wildfire detection and a preprint on regime-dependent modeling failures in phi^4 theory. I'm looking for roles in SciML research, physics-informed ML, or quantitative research, where rigorous math meets real systems.",
+    "I'm a Physics and Data Science student at UC San Diego researching scientific machine learning, physics-informed neural networks, and computational physics. My work spans PINN and neural-operator surrogates for thermal simulation, characteristic-aligned operators for transport-dominated PDEs, and MCMC-based analysis of lattice field theory — with published research in AI Interpretability and on Computational Physics. I'm looking for roles in SciML research, physics-informed ML, or quantitative research, where rigorous math meets real systems.",
   skills: [
     "PINNs",
     "Neural Operators",
