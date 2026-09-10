@@ -59,6 +59,6 @@ The `src/config.ts` exports a `siteConfig` object with these sections:
 - Social links: email, linkedin, orcid, github (all optional)
 - aboutMe: string
 - skills: string[]
-- projects: array of {name, description, skills, links?: array of {label, url}}
-- experience: array of {company, title, dateRange, bullets, link?: string}
+- projects: array of {name, description, skills, dateRange?, links?: array of {label, url}}
+- experience: array of {company, title, dateRange, bullets, skills?, link?: string, linkLabel?: string}
 - education: array of {school, degree, dateRange, achievements}

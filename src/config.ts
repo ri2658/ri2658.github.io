@@ -31,6 +31,7 @@ export const siteConfig = {
   projects: [
     {
       name: "UniverseLab",
+      dateRange: "Jul 2026 - Present",
       description:
         "Simulated Sun-Earth-Moon three-body dynamics in pure Python with a symplectic leapfrog integrator that removed Euler's energy drift; implemented Metropolis-Hastings MCMC from scratch to recover an exoplanet's mass from noisy radial-velocity data.",
       links: [{ label: "Code", url: "https://github.com/ri2658/UniverseLab" }],
@@ -38,6 +39,7 @@ export const siteConfig = {
     },
     {
       name: "Regime-Dependent Modeling Failures in φ⁴ Theory",
+      dateRange: "Feb 2026 - Present",
       description:
         "Sampled lattice φ⁴ fields via Metropolis-Hastings MCMC and benchmarked Fourier, PCA, and normalizing-flow models, defining 3 regimes for when nonlinear models are needed as mode coupling grows ~3x. Preprint with Prof. Javier Duarte's lab.",
       links: [
@@ -47,7 +49,18 @@ export const siteConfig = {
       skills: ["MCMC", "Normalizing Flows", "Lattice Field Theory"],
     },
     {
+      name: "SKLearn Under the Hood",
+      dateRange: "Oct 2025 - Dec 2025",
+      description:
+        "Re-implemented PCA, k-means, EM, and regularized regression from scratch in NumPy with a FastAPI and React/TypeScript frontend; awarded 3rd Place at DinoCage, UCSD's Data Science Student Society hackathon.",
+      links: [
+        { label: "Website", url: "https://ml-under-the-hood-site.vercel.app/" },
+      ],
+      skills: ["NumPy", "FastAPI", "React", "TypeScript"],
+    },
+    {
       name: "Adversarial Robustness for Deep Learning-based Wildfire Prediction",
+      dateRange: "Jul 2024 - Jan 2025",
       description:
         "Built WARP, the first model-agnostic adversarial robustness evaluation method for wildfire smoke detectors (YOLOv8n vs RT-DETR). Global Gaussian noise cut transformer mAP to 86.5% vs 50.8% for CNN; adversarial inputs reversed ~50% of smoke detections. Published in Fire.",
       links: [
@@ -55,15 +68,6 @@ export const siteConfig = {
         { label: "Code", url: "https://github.com/ri2658/WARP" },
       ],
       skills: ["Adversarial Robustness", "YOLOv8", "RT-DETR"],
-    },
-    {
-      name: "SKLearn Under the Hood",
-      description:
-        "Re-implemented PCA, k-means, EM, and regularized regression from scratch in NumPy with a FastAPI and React/TypeScript frontend; awarded 3rd Place at DinoCage, UCSD's Data Science Student Society hackathon.",
-      links: [
-        { label: "Website", url: "https://ml-under-the-hood-site.vercel.app/" },
-      ],
-      skills: ["NumPy", "FastAPI", "React", "TypeScript"],
     },
   ],
   experience: [
@@ -78,6 +82,14 @@ export const siteConfig = {
         "Identified and fixed data-leakage bugs in a physics-informed neural operator; rebuilt the pipeline to achieve a fair 0.75°C RMSE",
         "Conducted causal ablation study; concluded Performer attention added no real gain (+2.5%) and removed it to reduce model complexity",
       ],
+      skills: [
+        "PINNs",
+        "Neural Operators",
+        "PyTorch",
+        "Optuna",
+        "Thermal Simulation",
+        "Semiconductors",
+      ],
     },
     {
       company: "Prof. Tajana Rosing Lab / SEELab, UC San Diego",
@@ -88,6 +100,14 @@ export const siteConfig = {
       bullets: [
         "Developing characteristic-aligned neural operators for transport-dominated PDEs in fluid dynamics, learning only the residual kernel left after known transport is removed",
         "Derived approximation lower bounds linking kernel rank to transport separation; experimentally showed effective kernel rank grew O(1) for characteristic-aligned architectures versus sub-quadratic growth for generic kernel methods",
+      ],
+      skills: [
+        "Neural Operators",
+        "PDEs",
+        "Fluid Dynamics",
+        "Approximation Theory",
+        "Python",
+        "PyTorch",
       ],
     },
     {
@@ -100,6 +120,14 @@ export const siteConfig = {
         "Sampled lattice φ⁴ fields via Metropolis-Hastings MCMC; benchmarked Fourier, PCA, and normalizing-flow models to identify coupling regimes where independence-based representations fail",
         "Quantified mode coupling growth of ~3x (C: 0.06 to 0.2), defining 3 regimes for when nonlinear models are needed; presented at the 2026 Conference on Physics and AI, Stanford",
       ],
+      skills: [
+        "MCMC",
+        "Lattice Field Theory",
+        "Normalizing Flows",
+        "PCA",
+        "Statistical Mechanics",
+        "Python",
+      ],
     },
     {
       company: "National Science Foundation REU Program",
@@ -109,6 +137,13 @@ export const siteConfig = {
       dateRange: "Jun 2023 - Jul 2023",
       bullets: [
         "Trained computer vision transformers (WS-DETR, D-DETR) for wildfire detection using a Docker-containerized environment",
+      ],
+      skills: [
+        "Computer Vision",
+        "Transformers",
+        "DETR",
+        "Docker",
+        "PyTorch",
       ],
     },
   ],
