@@ -38,17 +38,6 @@ export const siteConfig = {
       skills: ["Python", "Numerical Methods", "MCMC"],
     },
     {
-      name: "Regime-Dependent Modeling Failures in φ⁴ Theory",
-      dateRange: "Feb 2026 - Present",
-      description:
-        "Sampled lattice φ⁴ fields via Metropolis-Hastings MCMC and benchmarked Fourier, PCA, and normalizing-flow models, defining 3 regimes for when nonlinear models are needed as mode coupling grows ~3x. Preprint with Prof. Javier Duarte's lab.",
-      links: [
-        { label: "Preprint", url: "https://arxiv.org/abs/2605.01145" },
-        { label: "Conference", url: "https://zenodo.org/records/21056890" },
-      ],
-      skills: ["MCMC", "Normalizing Flows", "Lattice Field Theory"],
-    },
-    {
       name: "SKLearn Under the Hood",
       dateRange: "Oct 2025 - Dec 2025",
       description:
@@ -73,8 +62,7 @@ export const siteConfig = {
   experience: [
     {
       company: "Bucket Labs",
-      link: "https://www.bucketlabs.ai/",
-      linkLabel: "Website",
+      links: [{ label: "Website", url: "https://www.bucketlabs.ai/" }],
       title: "Engineering Intern",
       dateRange: "Jun 2026 - Aug 2026",
       bullets: [
@@ -93,8 +81,7 @@ export const siteConfig = {
     },
     {
       company: "Prof. Tajana Rosing Lab / SEELab, UC San Diego",
-      link: "https://seelab.ucsd.edu/",
-      linkLabel: "Lab site",
+      links: [{ label: "Lab site", url: "https://seelab.ucsd.edu/" }],
       title: "Undergraduate Researcher",
       dateRange: "Apr 2026 - Present",
       bullets: [
@@ -112,13 +99,16 @@ export const siteConfig = {
     },
     {
       company: "Prof. Javier Duarte Lab, UC San Diego",
-      link: "https://jduarte.physics.ucsd.edu/",
-      linkLabel: "Lab site",
+      links: [
+        { label: "Lab site", url: "https://jduarte.physics.ucsd.edu/" },
+        { label: "Preprint", url: "https://arxiv.org/abs/2605.01145" },
+        { label: "Conference", url: "https://zenodo.org/records/21056890" },
+      ],
       title: "Undergraduate Researcher",
       dateRange: "Feb 2026 - Present",
       bullets: [
-        "Sampled lattice φ⁴ fields via Metropolis-Hastings MCMC; benchmarked Fourier, PCA, and normalizing-flow models to identify coupling regimes where independence-based representations fail",
-        "Quantified mode coupling growth of ~3x (C: 0.06 to 0.2), defining 3 regimes for when nonlinear models are needed; presented at the 2026 Conference on Physics and AI, Stanford",
+        "Characterized regime-dependent failures of independence-based models in lattice φ⁴ theory: sampled fields via Metropolis-Hastings MCMC and benchmarked Fourier, PCA, and normalizing-flow representations",
+        "Quantified mode coupling growth of ~3x (C: 0.06 to 0.2), defining 3 regimes for when nonlinear models are needed; released as an arXiv preprint and presented at the 2026 Conference on Physics and AI, Stanford",
       ],
       skills: [
         "MCMC",
@@ -131,8 +121,12 @@ export const siteConfig = {
     },
     {
       company: "National Science Foundation REU Program",
-      link: "https://www.nsf.gov/awardsearch/show-award/?AWD_ID=1950485&HistoricalAwards=false",
-      linkLabel: "Program",
+      links: [
+        {
+          label: "Program",
+          url: "https://www.nsf.gov/awardsearch/show-award/?AWD_ID=1950485&HistoricalAwards=false",
+        },
+      ],
       title: "Research Intern",
       dateRange: "Jun 2023 - Jul 2023",
       bullets: [

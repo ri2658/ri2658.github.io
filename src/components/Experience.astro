@@ -73,28 +73,32 @@ const hasExperience = siteConfig.experience && siteConfig.experience.length > 0;
                       </div>
                     )}
 
-                    {exp.link && (
-                      <a
-                        href={exp.link}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        class="inline-flex items-center gap-1.5 mt-4 px-3 py-1.5 rounded-lg border border-gray-700 text-sm font-medium text-gray-300 transition-colors duration-300 hover:text-white hover:border-gray-500 hover:bg-gray-800"
-                      >
-                        {exp.linkLabel || "Website"}
-                        <svg
-                          class="w-3.5 h-3.5"
-                          fill="none"
-                          stroke="currentColor"
-                          viewBox="0 0 24 24"
-                        >
-                          <path
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            stroke-width="2"
-                            d="M7 17L17 7M17 7H7M17 7V17"
-                          />
-                        </svg>
-                      </a>
+                    {exp.links && exp.links.length > 0 && (
+                      <div class="flex flex-wrap gap-2 sm:gap-3 mt-4">
+                        {exp.links.map((link) => (
+                          <a
+                            href={link.url}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg border border-gray-700 text-sm font-medium text-gray-300 transition-colors duration-300 hover:text-white hover:border-gray-500 hover:bg-gray-800"
+                          >
+                            {link.label}
+                            <svg
+                              class="w-3.5 h-3.5"
+                              fill="none"
+                              stroke="currentColor"
+                              viewBox="0 0 24 24"
+                            >
+                              <path
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                stroke-width="2"
+                                d="M7 17L17 7M17 7H7M17 7V17"
+                              />
+                            </svg>
+                          </a>
+                        ))}
+                      </div>
                     )}
                   </div>
                 </div>
