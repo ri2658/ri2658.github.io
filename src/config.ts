@@ -101,8 +101,8 @@ export const siteConfig = {
       company: "Prof. Javier Duarte Lab, UC San Diego",
       links: [
         { label: "Lab site", url: "https://jduarte.physics.ucsd.edu/" },
-        { label: "Preprint", url: "https://arxiv.org/abs/2605.01145" },
-        { label: "Conference", url: "https://zenodo.org/records/21056890" },
+        { label: "Preprint", url: "https://zenodo.org/records/21056890" },
+        { label: "Conference", url: "https://datascience.stanford.edu/events/center-decoding-universe/c4du-annual-conference/2026-conference-physics-and-ai-pai26" },
       ],
       title: "Undergraduate Researcher",
       dateRange: "Feb 2026 - Present",
