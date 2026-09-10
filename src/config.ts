@@ -33,32 +33,43 @@ export const siteConfig = {
       name: "UniverseLab",
       description:
         "Simulated Sun-Earth-Moon three-body dynamics in pure Python with a symplectic leapfrog integrator that removed Euler's energy drift; implemented Metropolis-Hastings MCMC from scratch to recover an exoplanet's mass from noisy radial-velocity data.",
+      links: [{ label: "Code", url: "https://github.com/ri2658/UniverseLab" }],
       skills: ["Python", "Numerical Methods", "MCMC"],
     },
     {
       name: "Regime-Dependent Modeling Failures in φ⁴ Theory",
       description:
         "Sampled lattice φ⁴ fields via Metropolis-Hastings MCMC and benchmarked Fourier, PCA, and normalizing-flow models, defining 3 regimes for when nonlinear models are needed as mode coupling grows ~3x. Preprint with Prof. Javier Duarte's lab.",
-      link: "https://arxiv.org/abs/2605.01145",
+      links: [
+        { label: "Preprint", url: "https://arxiv.org/abs/2605.01145" },
+        { label: "Conference", url: "https://zenodo.org/records/21056890" },
+      ],
       skills: ["MCMC", "Normalizing Flows", "Lattice Field Theory"],
     },
     {
       name: "Adversarial Robustness for Deep Learning-based Wildfire Prediction",
       description:
         "Built WARP, the first model-agnostic adversarial robustness evaluation method for wildfire smoke detectors (YOLOv8n vs RT-DETR). Global Gaussian noise cut transformer mAP to 86.5% vs 50.8% for CNN; adversarial inputs reversed ~50% of smoke detections. Published in Fire.",
-      link: "https://doi.org/10.3390/fire8020050",
+      links: [
+        { label: "Paper", url: "https://doi.org/10.3390/fire8020050" },
+        { label: "Code", url: "https://github.com/ri2658/WARP" },
+      ],
       skills: ["Adversarial Robustness", "YOLOv8", "RT-DETR"],
     },
     {
       name: "SKLearn Under the Hood",
       description:
         "Re-implemented PCA, k-means, EM, and regularized regression from scratch in NumPy with a FastAPI and React/TypeScript frontend; awarded 3rd Place at DinoCage, UCSD's Data Science Student Society hackathon.",
+      links: [
+        { label: "Website", url: "https://ml-under-the-hood-site.vercel.app/" },
+      ],
       skills: ["NumPy", "FastAPI", "React", "TypeScript"],
     },
   ],
   experience: [
     {
       company: "Bucket Labs",
+      link: "https://www.bucketlabs.ai/",
       title: "Engineering Intern",
       dateRange: "Jun 2026 - Aug 2026",
       bullets: [
@@ -69,6 +80,7 @@ export const siteConfig = {
     },
     {
       company: "Prof. Tajana Rosing Lab / SEELab, UC San Diego",
+      link: "https://seelab.ucsd.edu/",
       title: "Undergraduate Researcher",
       dateRange: "Apr 2026 - Present",
       bullets: [
@@ -78,6 +90,7 @@ export const siteConfig = {
     },
     {
       company: "Prof. Javier Duarte Lab, UC San Diego",
+      link: "https://jduarte.physics.ucsd.edu/",
       title: "Undergraduate Researcher",
       dateRange: "Feb 2026 - Present",
       bullets: [
@@ -87,6 +100,7 @@ export const siteConfig = {
     },
     {
       company: "National Science Foundation REU Program",
+      link: "https://www.nsf.gov/awardsearch/show-award/?AWD_ID=1950485&HistoricalAwards=false",
       title: "Research Intern",
       dateRange: "Jun 2023 - Jul 2023",
       bullets: [
