@@ -70,6 +70,7 @@ export const siteConfig = {
     {
       company: "Bucket Labs",
       link: "https://www.bucketlabs.ai/",
+      linkLabel: "Website",
       title: "Engineering Intern",
       dateRange: "Jun 2026 - Aug 2026",
       bullets: [
@@ -81,6 +82,7 @@ export const siteConfig = {
     {
       company: "Prof. Tajana Rosing Lab / SEELab, UC San Diego",
       link: "https://seelab.ucsd.edu/",
+      linkLabel: "Lab site",
       title: "Undergraduate Researcher",
       dateRange: "Apr 2026 - Present",
       bullets: [
@@ -91,6 +93,7 @@ export const siteConfig = {
     {
       company: "Prof. Javier Duarte Lab, UC San Diego",
       link: "https://jduarte.physics.ucsd.edu/",
+      linkLabel: "Lab site",
       title: "Undergraduate Researcher",
       dateRange: "Feb 2026 - Present",
       bullets: [
@@ -101,6 +104,7 @@ export const siteConfig = {
     {
       company: "National Science Foundation REU Program",
       link: "https://www.nsf.gov/awardsearch/show-award/?AWD_ID=1950485&HistoricalAwards=false",
+      linkLabel: "Program",
       title: "Research Intern",
       dateRange: "Jun 2023 - Jul 2023",
       bullets: [
